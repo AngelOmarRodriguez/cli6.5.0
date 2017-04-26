@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.kenworth.app" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>KW Este</name>
+    <description>
+        Esta aplicación te ayuda a hacer un seguimiento de nuestra concesionaria de forma menos complicada. Se trata de una app gratuita que permite entrar a la pagina , Twitter, informe de ubicaciones y un catalogo de unidades nuevas.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Kenworth del Este SA de CV
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+	<allow-navigation href="http://www.kenworthdeleste.com.mx/*" />
+	<allow-navigation href="https://cdn.rawgit.com/Luis-Chavez/*" />
+	<allow-navigation href="https://www.google.com/maps/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+		<icon src="www/img/icon.png"/>
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
